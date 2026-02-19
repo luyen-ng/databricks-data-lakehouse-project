@@ -45,7 +45,7 @@ This project follows the **Medallion Architecture**:
 ## Pipeline Execution & Monitoring
 To ensure the reliability and automation of the Lakehouse, the project implements and monitors data workflows using **Databricks Jobs** and **Unity Catalog**.
 
-1. Automated Workflows & Job History
+1. **Automated Workflows & Job History**
 
 The project utilizes scheduled jobs to trigger the end-to-end Bronze-to-Gold transformation sequence. This orchestration ensures that the data pipeline remains consistent and resilient.
 
@@ -55,7 +55,7 @@ The project utilizes scheduled jobs to trigger the end-to-end Bronze-to-Gold tra
 
 - Operational Reliability: The history reflects consistent performance across multiple automated runs.
 
-2. Execution Performance & Timeline
+2. **Execution Performance & Timeline**
 
 Each stage of the Medallion Architecture is monitored to ensure optimal Spark resource utilization and processing efficiency.
 
@@ -65,7 +65,7 @@ Each stage of the Medallion Architecture is monitored to ensure optimal Spark re
 
 - Performance Tracking: Execution metrics allow for the identification and resolution of potential processing bottlenecks.
 
-3. Data Lineage & Governance
+3. **Data Lineage & Governance**
 
 Through the integration of Unity Catalog, the project features automated data lineage, establishing a "single source of truth" for all data assets.
 

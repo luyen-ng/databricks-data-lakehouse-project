@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+venv/
+*.db
+*.csv
+.vscode/
+jotbird-document.md
+*.drawio
